@@ -72,4 +72,4 @@
 └── yarn.lock
 ```
 
-to link sample <a href="kanban.feedomain.tk">KANBAN SIMPLE</a>
+to link sample <a href="http://kanban.feedomain.tk">KANBAN SIMPLE</a>
