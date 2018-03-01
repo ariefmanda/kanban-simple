@@ -52,7 +52,7 @@
 import {kanban} from '../firebase'
 window.fbAsyncInit = function () {
   FB.init({
-    appId: '225274774708793',
+    appId: '1239370809540745', // localhost : 1239370809540745 225274774708793
     cookie: true, // enable cookies to allow the server to access
     // the session
     xfbml: true, // parse social plugins on this page
@@ -97,7 +97,7 @@ export default {
       this.create.description = ''
       this.create.point = 0
       this.create.assignTo = ''
-      document.getElementById('create').modal('hide')
+      $('#create').modal('hide')
       this.$notify({
         type: 'success',
         text: 'task sudah ditambah'
